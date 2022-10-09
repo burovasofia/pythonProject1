@@ -65,6 +65,44 @@
 # country = {4:3}
 # print(country[4])
 
+# data = input('Введите текст: ')
+# file = open('data/text.txt', 'a')
+#
+# file.write(data + '\n')
+#
+# file.close()
 
+# file = open('data/text.txt', 'r')
+#
+# print(file.read())
+#
+# file.close()
 
+# try:
+#     x = int(input('Введите число: '))
+#     x +=5
+#     print(x)
+# except ValueError:
+#     print('Введите число!')
 
+# x = 0
+# while x == 0:
+#     try:
+#         x = int(input('Введите число: '))
+#         x += 5
+#         print(x)
+#     except ValueError:
+#         print('Введите число!')
+
+# try:
+#     file = open('data/text.txt','r')
+#     print(file.read())
+#     file.close()
+# except FileNotFoundError:
+#     print('файл не найден')
+
+# try:
+#     with open('data/text.txt', 'r', encoding='utf-8' ) as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print('файл не найден')
