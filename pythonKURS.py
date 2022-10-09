@@ -19,6 +19,7 @@
 # c = "hello" #string
 # d = True # bool
 # m = '5' #string
+# print(int(m))
 #
 # print(b + str(a)) # преобразуем число в строку
 # print(a + int(m)) # преобразуем строку в число
