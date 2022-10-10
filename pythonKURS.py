@@ -107,3 +107,13 @@
 #         print(file.read())
 # except FileNotFoundError:
 #     print('файл не найден')
+#
+#МОДУЛИ!!!!
+
+# import datetime
+# print(datetime.datetime.now().time())
+
+# import sys, os, platform
+#
+# print(platform.system())\
+
