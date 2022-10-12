@@ -12,9 +12,16 @@
 
 #Напишите программу, которая будет выводить нечетные числа из списка и остановится, если встретит число 139
 
+# list=[2, 1, 6, 8, 7, 5,10, 100, 67, 139, 140, 51]
+# for i in range(len(list)):
+#     if list[i]%2!=0:
+#         if list[i]==139:
+#             break
+#         print(list[i])
+
 list=[2, 1, 6, 8, 7, 5,10, 100, 67, 139, 140, 51]
-for i in range(len(list)):
-    if list[i]%2!=0:
-        if list[i]==139:
+for item in list:
+    if item%2!=0:
+        if item==139:
             break
-        print(list[i])
+        print(item)
