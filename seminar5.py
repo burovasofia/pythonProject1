@@ -26,11 +26,11 @@
 #             list.pop(i + 1)
 #             print(list)
 
-with open ('data/text.txt', 'r', encoding = 'utf-8') as data:
-    a = data.read().split()
-    a =list(map(int, a))
-print(a)
-for i in range(len(a)):
-    if a[i]+1 == a[i+1]:
-
-        # print(a[i]+1)
+# with open ('data/text.txt', 'r', encoding = 'utf-8') as data:
+#     a = data.read().split()
+#     a =list(map(int, a))
+# print(a)
+# for i in range(len(a)):
+#     if a[i]+1 == a[i+1]:
+#
+#         # print(a[i]+1)
