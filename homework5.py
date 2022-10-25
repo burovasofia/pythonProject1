@@ -129,12 +129,12 @@
 #
 # print(month_to_season(int(input('введите номер месяца '))))
 
-str = 'Сидел барсук в своей норе и ел картошечку пюре'
-print(str)
-print(len(str))
-print(str + '.')
-print('ре' in str)
-print(str.count('ре'))
-print(str[-2])
-print(str[1::2])
-print(str.count(' ') + 1)
+# str = 'Сидел барсук в своей норе и ел картошечку пюре'
+# print(str)
+# print(len(str))
+# print(str + '.')
+# print('ре' in str)
+# print(str.count('ре'))
+# print(str[-2])
+# print(str[1::2])
+# print(str.count(' ') + 1)
